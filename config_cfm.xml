@@ -284,10 +284,9 @@
 	
 	<viewer>
 		<pages>3</pages> <!--	quantidade de páginas	-->
-		<page id="1" background="#000000"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
+		<page id="1" background="#000000" pdf="cfm_medico_frente_01"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
 			<element type="background" id="background"> <!--	imagem de fundo da página	-->
 				<image resourceId="cfm_modelo1_01"/>
-				<pdf resourceId="cfm_medico_frente_01"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
@@ -341,10 +340,9 @@
 				<pdfField name="foto_portador"/>
 			</element>
 		</page>
-		<page id="2" background="#000000">
+		<page id="2" background="#000000" pdf="cfm_medico_verso_01">
 			<element type="background" id="background">
 				<image resourceId="cfm_modelo1_02"/>
-				<pdf resourceId="cfm_medico_verso_01"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
