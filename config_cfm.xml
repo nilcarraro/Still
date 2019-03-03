@@ -133,17 +133,17 @@
 			<font name="header"> <!--	nome a ser utilizado	-->
 				<size>14</size> <!--	tamanho da fonte	-->
 				<bold>1</bold> <!--	ativar negrito	-->
-				<color>#cecece</color> <!--	cor da fonte	-->
+				<color>#000000</color> <!--	cor da fonte	-->
 			</font>
 			<font name="detail">
 				<size>11</size>
 				<bold>0</bold>
-				<color>#cecece</color>
+				<color>#000000</color>
 			</font>
 			<font name="header2">
 				<size>12</size>
 				<bold>1</bold>
-				<color>#cecece</color>
+				<color>#000000</color>
 			</font>
 		</fonts>
 		
