@@ -267,18 +267,20 @@
 	
 	<viewer>
 		<pages>3</pages> <!--	quantidade de páginas	-->
-		<page id="1" background="#000000"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
+		<page id="1" background="#000000" pdf="cfm_conselheiro_frente_01"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
 			<element type="background" id="background"> <!--	imagem de fundo da página	-->
 				<image resourceId="cfm_modelo3_01"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
 				<font type="header2"/>
+				<pdfField name="titulo1"/>
 				<position type="relative" elementId="background" x="230" y="40"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="|CONSELHEIRO REGIONAL|"/>
 				<font type="header2"/>
+				<pdfField name="titulo2"/>
 				<position type="relative" elementId="background" x="230" y="55"/>
 			</element>
 			<element type="label"> <!--		Elemento do tipo texto	-->
@@ -287,66 +289,78 @@
 				<!--	o resourceId deve ser o nome da propriedade presente no json do atributo	-->
 				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
 				<font type="header"/>
+				<pdfField name="crm"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
 				<position type="absolute" x="490" y="330"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
 				<font type="header"/>
+				<pdfField name="nome_portador"/>
 				<position type="relative" elementId="background" x="232" y="127"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cargo"/>
 				<font type="header"/>
+				<pdfField name="cargo"/>
 				<position type="relative" elementId="background" x="232" y="177"/>
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
+				<pdfField name="foto_portador"/>
 				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
+				<pdfField name="nascimento"/>
 				<position type="absolute" x="117" y="245"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
 				<font type="header"/>
+				<pdfField name="cpf"/>
 				<position type="absolute" x="117" y="285"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
+				<pdfField name="rg"/>
 				<position type="absolute" x="272" y="285"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="header"/>
+				<pdfField name="validade"/>
 				<position type="absolute" x="117" y="330"/>
 			</element>
 		</page>
-		<page id="2" background="#000000">
+		<page id="2" background="#000000" pdf="cfm_conselheiro_verso_01">
 			<element type="background" id="background">
 				<image resourceId="cfm_modelo3_02"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="header"/>
+				<pdfField name="nome_pai"/>
 				<position type="absolute" x="81" y="133"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="header"/>
+				<pdfField name="nome_mae"/>
 				<position type="absolute" x="81" y="148"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
 				<font type="header"/>
+				<pdfField name="naturalidade"/>
 				<position type="absolute" x="81" y="195"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="header"/>
+				<pdfField name="expedicao"/>
 				<position type="absolute" x="81" y="252"/>
 			</element>
 		</page>
