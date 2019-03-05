@@ -131,7 +131,7 @@
 		<!--	configuração das fontes que serão utilizadas para exibir a imagem do atributo	-->
 		<fonts>
 			<font name="header"> <!--	nome a ser utilizado	-->
-				<size>14</size> <!--	tamanho da fonte	-->
+				<size>9</size> <!--	tamanho da fonte	-->
 				<bold>1</bold> <!--	ativar negrito	-->
 				<color>#000000</color> <!--	cor da fonte	-->
 			</font>
