@@ -318,7 +318,7 @@
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai,|\n|,filiacaoMae"/>
-				<font type="detail"/>
+				<font type="header"/>
 				<pdfField name="filiacao"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>			
