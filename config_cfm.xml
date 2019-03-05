@@ -284,7 +284,7 @@
 	
 	<viewer>
 		<pages>3</pages> <!--	quantidade de páginas	-->
-		<page id="1" background="#000000" pdf="cfm_medico_frente_01"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
+		<page id="1" background="#000000" pdf="medico_frente"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
 			<element type="background" id="background"> <!--	imagem de fundo da página	-->
 				<image resourceId="cfm_modelo1_01"/>
 			</element>
