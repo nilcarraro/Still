@@ -363,6 +363,16 @@
 				<pdfField name="expedicao"/>
 				<position type="absolute" x="81" y="252"/>
 			</element>
+			<element type="image">
+				<image resourceId="assinatura_presidente"/>
+				<pdfField name="assinatura_presidente"/>
+				<position type="absolute" x="490" y="110" w="135" h="190"/>
+			</element>
+			<element type="image">
+				<image resourceId="assinatura_portador"/>
+				<pdfField name="assinatura_portador"/>
+				<position type="absolute" x="490" y="110" w="135" h="190"/>
+			</element>			
 		</page>
 		<page id="3" background="#FFFFFF">
 			<element type="background" id="background">
