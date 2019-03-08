@@ -387,7 +387,7 @@
 			</element>
 			<element type="image">
 				<image resourceId="assinatura_presidente"/>
-				<pdfField name="assinatura_presidente"/>
+				<pdfField name="assinatura_crm"/>
 				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>			
 		</page>
