@@ -374,6 +374,24 @@
 				<position type="absolute" x="72" y="163"/>
 			</element>
 			<element type="label">
+				<mappedElement resourceId="|123456789012|"/>
+				<font type="header"/>
+				<pdfField name="titulo_eleitor"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="|1234|"/>
+				<font type="header"/>
+				<pdfField name="secao_eleitor"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="|123|"/>
+				<font type="header"/>
+				<pdfField name="zona_eleitor"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>			
+			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
 				<font type="header"/>
 				<pdfField name="naturalidade"/>
