@@ -42,7 +42,7 @@
 	</resources>
 	<!--	*********************************	-->
 
-	<certificateAttribute imageMode="1" startPage="0" autoShowView="1">
+	<certificateAttribute imageMode="1" startPage="0" autoShowView="0">
 		<!--	camada de mapeamento dos campos/labels presentes no atributo (de-para do json de dados do atributo) 	-->
 		<fieldMap>
 			<!--
