@@ -329,7 +329,7 @@
 				<position type="absolute" x="272" y="285"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
+				<mappedElement resourceId="validade"/>
 				<font type="header"/>
 				<pdfField name="validade"/>
 				<position type="absolute" x="117" y="330"/>
