@@ -272,7 +272,7 @@
 				<image resourceId="cfm_modelo3_01"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
+				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO |,crm_estado"/>
 				<font type="header2"/>
 				<pdfField name="titulo1"/>
 				<position type="relative" elementId="background" x="230" y="40"/>
