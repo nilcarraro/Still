@@ -339,13 +339,13 @@
 				<image resourceId="cfm_modelo3_02"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="filiacaoPai"/>
+				<mappedElement resourceId="filiacaoMae"/>
 				<font type="header"/>
 				<pdfField name="nome_pai"/>
 				<position type="absolute" x="81" y="133"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="filiacaoMae"/>
+				<mappedElement resourceId="filiacaoPai"/>
 				<font type="header"/>
 				<pdfField name="nome_mae"/>
 				<position type="absolute" x="81" y="148"/>
