@@ -323,13 +323,13 @@
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>			
 			<element type="label">
-				<mappedElement resourceId="filiacaoPai"/>
+				<mappedElement resourceId="filiacaoMae"/>
 				<font type="header"/>
 				<pdfField name="nome_pai"/>
 				<position type="absolute" x="220" y="198"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="filiacaoMae"/>
+				<mappedElement resourceId="filiacaoPai"/>
 				<font type="header"/>
 				<pdfField name="nome_mae"/>
 				<position type="absolute" x="220" y="214"/>
