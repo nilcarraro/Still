@@ -357,7 +357,7 @@
 				<position type="absolute" x="81" y="195"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
+				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano" formatter="1"/>
 				<font type="header"/>
 				<pdfField name="expedicao"/>
 				<position type="absolute" x="81" y="252"/>
