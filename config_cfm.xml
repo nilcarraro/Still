@@ -119,7 +119,7 @@
 				<field name="cpf_numero" label="CPF" language="pt-br"/>
 				<field name="rg_numero" label="Número RG" language="pt-br"/>
 				<field name="rg_orgao_emissor" label="Emissor RG" language="pt-br"/>
-				<field name="emissao_ano" label="Eno Emissão RG" language="pt-br"/>
+				<field name="emissao_ano" label="Ano Emissão RG" language="pt-br"/>
 				<field name="dataNascimento" label="Data de Nascimento" language="pt-br"/>
 				<field name="naturalidade" label="Naturalidade" language="pt-br"/>
 				<field name="naturalidadeUF" label="Naturalidade UF" language="pt-br"/>
