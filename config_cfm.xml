@@ -380,7 +380,7 @@
 				<position type="absolute" x="72" y="163"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="secao"/>
+				<mappedElement resourceId="sessao"/>
 				<font type="header"/>
 				<pdfField name="secao_eleitor"/>
 				<position type="absolute" x="72" y="163"/>
