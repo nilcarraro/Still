@@ -351,7 +351,7 @@
 				<position type="absolute" x="81" y="148"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="naturalidade"/>
+				<mappedElement resourceId="naturalidade,| - |,naturalidadeUF"/>
 				<font type="header"/>
 				<pdfField name="naturalidade"/>
 				<position type="absolute" x="81" y="195"/>
