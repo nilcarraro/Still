@@ -318,7 +318,7 @@
 				<pdfField name="nome_portador"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>
-			<element type="text">
+			<element type="label">
 				<mappedElement resourceId="filiacaoPai,|--|,filiacaoMae"/>
 				<font type="header"/>
 				<pdfField name="filiacao"/>
