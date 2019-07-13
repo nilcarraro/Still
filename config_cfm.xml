@@ -342,7 +342,7 @@
 				<pdfField name="emissao"/>
 				<position type="absolute" x="66" y="295"/>				
 			</element>
-			<element type="text">
+			<element type="label">
 				<mappedElement resourceId="via"/>
 				<font type="header"/>
 				<pdfField name="via"/>
