@@ -338,8 +338,14 @@
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano" formatter="1"/>
 				<font type="header"/>
 				<pdfField name="emissao"/>
-				<position type="absolute" x="66" y="295"/>
+				<position type="absolute" x="66" y="295"/>				
 			</element>
+			<element type="text">
+				<mappedElement resourceId="via"/>
+				<font type="header"/>
+				<pdfField name="via"/>
+				<position type="relative" elementId="background" x="220" y="117"/>
+			</element>			
 			<element type="image">
 				<image resourceId="foto_portador"/>
 				<position type="absolute" x="500" y="170" w="135" h="190"/>
