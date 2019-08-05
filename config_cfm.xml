@@ -370,7 +370,7 @@
 				<position type="absolute" x="72" y="35"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor,|-|,rg_uf"/>
+				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
 				<pdfField name="rg_numero"/>
 				<position type="absolute" x="280" y="35"/>
