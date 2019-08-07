@@ -322,7 +322,7 @@
 				<position type="absolute" x="117" y="285"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor,|-|,rg_uf"/>
+				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
 				<pdfField name="rg"/>
 				<position type="absolute" x="272" y="285"/>
@@ -351,7 +351,7 @@
 				<position type="absolute" x="81" y="148"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="naturalidade,| - |,naturalidadeUF"/>
+				<mappedElement resourceId="naturalidade"/>
 				<font type="header"/>
 				<pdfField name="naturalidade"/>
 				<position type="absolute" x="81" y="195"/>
