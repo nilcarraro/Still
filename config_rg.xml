@@ -55,7 +55,7 @@
 			<field name="nomeMae" label="Nome da mãe" language="pt-br"/>
 			<field name="nomePai" label="Nome do pai" language="pt-br"/>
 			<field name="nomeSocial" label="Nome social" language="pt-br"/>
-			<field name="dataNascimentoNew" label="Data nascimento" language="pt-br"/>
+			<field name="dataNascimento" label="Data nascimento" language="pt-br"/>
 			<field name="naturalidade" label="Naturalidade" language="pt-br"/>
 			<field name="fatorSanguineo" label="Fator sanguíneo" language="pt-br"/>
 			<field name="orgaoExpedidor" label="Órgão expedidor" language="pt-br"/>
@@ -319,7 +319,7 @@
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>			
 			<element type="label">
-				<mappedElement resourceId="dataNascimentoNew"/>
+				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
 				<pdfField name="nascimento"/>
 				<position type="absolute" x="220" y="198"/>
@@ -468,7 +468,7 @@
 				<position type="absolute" x="72" y="232"/>
 			</element>
 			<element type="opc">
-				<mappedElement resourceId="dataNascimentoNew" calcType="date" part="year" major="65"/>
+				<mappedElement resourceId="dataNascimento" calcType="date" part="year" major="65"/>
 				<font type="header"/>
 				<pdfField name="maior_65"/>
 				<position type="absolute" x="72" y="232"/>
