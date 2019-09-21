@@ -306,14 +306,14 @@
 				<!--	o recurso pode ser composto por vários campos, separados por vírgula	-->
 				<!--	para inserir texto fixo, deve ser colocado entre pipes (ex: |/|)	-->
 				<!--	o resourceId deve ser o nome da propriedade presente no json do atributo	-->
-				<mappedElement resourceId="nomeCidadao1,| |,nomeCidadao2"/>
+				<mappedElement resourceId="nomeCidadao1,||,nomeCidadao2"/>
 				<font type="header"/>
 				<pdfField name="nome_social"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
 				<position type="absolute" x="520" y="117"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="nomeMae,| |,nomeMae2,|--|,nomePai,| |,nomePai2"/>
+				<mappedElement resourceId="nomeMae,||,nomeMae2,|--|,nomePai,||,nomePai2"/>
 				<font type="header"/>
 				<pdfField name="filiacao"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
