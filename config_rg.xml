@@ -358,6 +358,32 @@
 				<pdfField name="img_ass_titular"/>
 				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>
+
+			<element type="opc">
+				<mappedElement resourceId="deficienteFisico" calcType="bool" part="resource"/>
+				<font type="header"/>
+				<pdfField name="ic_def_fisica"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="opc">
+				<mappedElement resourceId="deficienteAuditivo" calcType="bool" part="resource"/>
+				<font type="header"/>
+				<pdfField name="ic_def_auditiva"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="opc">
+				<mappedElement resourceId="deficienteMental" calcType="bool" part="resource"/>
+				<font type="header"/>
+				<pdfField name="ic_def_intelectual"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="opc">
+				<mappedElement resourceId="deficienteVisual" calcType="bool" part="resource"/>
+				<font type="header"/>
+				<pdfField name="ic_def_visual"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+
 		</page>
 		<page id="2" background="#000000" pdf="rg_back">
 			<element type="background" id="background">
