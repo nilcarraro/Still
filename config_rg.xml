@@ -402,7 +402,7 @@
 				<position type="absolute" x="280" y="35"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="numeroRegistro,| |,via"/>
+				<mappedElement resourceId="numeroRegistro"/>
 				<font type="header"/>
 				<pdfField name="registro_geral"/>
 				<position type="absolute" x="72" y="163"/>
@@ -423,6 +423,18 @@
 				<mappedElement resourceId="ctps"/>
 				<font type="header"/>
 				<pdfField name="ctps"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>			
+			<element type="label">
+				<mappedElement resourceId="textoDigital"/>
+				<font type="header"/>
+				<pdfField name="tipo_digital"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>			
+			<element type="label">
+				<mappedElement resourceId="|via|,via"/>
+				<font type="header"/>
+				<pdfField name="via"/>
 				<position type="absolute" x="72" y="163"/>
 			</element>			
 			<element type="label">
