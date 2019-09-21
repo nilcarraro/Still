@@ -59,16 +59,7 @@
 			<field name="naturalidade" label="Naturalidade" language="pt-br"/>
 			<field name="fatorSanguineo" label="Fator sanguíneo" language="pt-br"/>
 			<field name="orgaoExpedidor" label="Órgão expedidor" language="pt-br"/>
-			<field name="observacao" label="Observação" language="pt-br"/>
-			<field name="crm_numero" label="Número CRM" language="pt-br"/>
-			<field name="emissao_dia" label="Dia emissão" language="pt-br"/>
-			<field name="emissao_mes" label="Mês emissão" language="pt-br"/>
-			<field name="emissao_ano" label="Ano emissão" language="pt-br"/>
-			<field name="nome_portador" label="Portador" language="pt-br"/>
-			<field name="rg_numero" label="RG" language="pt-br"/>
-			<field name="dataNascimento" label="Nascimento" language="pt-br"/>
-			<field name="naturalidadeUF" label="Naturalidade UF" language="pt-br"/>
-			<field name="emissao_cidade" label="Cidade emissão CRM" language="pt-br"/>
+			<field name="numeroRegistro" label="Número registro" language="pt-br"/>
 			<field name="via" label="Via" language="pt-br" default="1"/>
 		</fieldMap>
 		
@@ -114,19 +105,16 @@
 				 label = título do campo que deve aparecer na tela
 				 language = idioma ('pt-br' ou 'en')
 				 -->
-				<field name="crm_numero" label="Número CRM" language="pt-br"/>
-				<field name="crm_estado" label="UF" language="pt-br"/>
-				<field name="cargo" label="Cargo" language="pt-br"/>
-				<field name="cpf_numero" label="CPF" language="pt-br"/>
-				<field name="rg_numero" label="Número RG" language="pt-br"/>
-				<field name="rg_orgao_emissor" label="Emissor RG" language="pt-br"/>
-				<field name="emissao_ano" label="Ano Emissão RG" language="pt-br"/>
-				<field name="dataNascimento" label="Data de Nascimento" language="pt-br"/>
-				<field name="naturalidade" label="Naturalidade" language="pt-br"/>
-				<field name="naturalidadeUF" label="Naturalidade UF" language="pt-br"/>
-				<field name="filiacaoMae" label="Nome da Mãe" language="pt-br"/>
-				<field name="filiacaoPai" label="Nome do Pai" language="pt-br"/>
-				<field name="via" label="Via" language="pt-br"/>
+                <field name="nomeCidadao1" label="Nome" language="pt-br"/>
+                <field name="nomeMae" label="Nome da mãe" language="pt-br"/>
+                <field name="nomePai" label="Nome do pai" language="pt-br"/>
+                <field name="nomeSocial" label="Nome social" language="pt-br"/>
+                <field name="dataNascimento" label="Data nascimento" language="pt-br"/>
+                <field name="naturalidade" label="Naturalidade" language="pt-br"/>
+                <field name="fatorSanguineo" label="Fator sanguíneo" language="pt-br"/>
+                <field name="orgaoExpedidor" label="Órgão expedidor" language="pt-br"/>
+                <field name="numeroRegistro" label="Número registro" language="pt-br"/>
+                <field name="via" label="Via" language="pt-br" default="1"/>
 			</detailList>
 		</detailScreen>
 		
