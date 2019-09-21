@@ -51,15 +51,15 @@
 			 	label = título do campo que deve aparecer na tela
 			 	language = idioma ('pt-br' ou 'en')...se não definida, será utilizado 'pt-br'
 			 -->
-			<field name="crm_estado" label="UF" language="pt-br"/>
-			<field name="cargo" label="Cargo" language="pt-br"/>
-			<field name="cpf_numero" label="CPF" language="pt-br"/>
-			<field name="validade" label="Validade" language="pt-br"/>
-			<field name="rg_uf" label="UF RG" language="pt-br"/>
-			<field name="rg_orgao_emissor" label="Órgão emissor RG" language="pt-br"/>
-			<field name="filiacaoPai" label="Nome do Pai" language="pt-br"/>
-			<field name="filiacaoMae" label="Nome da Mãe" language="pt-br"/>
+			<field name="nomeCidadao1" label="Nome" language="pt-br"/>
+			<field name="nomeMae" label="Nome da mãe" language="pt-br"/>
+			<field name="nomePai" label="Nome do pai" language="pt-br"/>
+			<field name="nomeSocial" label="Nome social" language="pt-br"/>
+			<field name="dataNascimentoNew" label="Data nascimento" language="pt-br"/>
 			<field name="naturalidade" label="Naturalidade" language="pt-br"/>
+			<field name="fatorSanguineo" label="Fator sanguíneo" language="pt-br"/>
+			<field name="orgaoExpedidor" label="Órgão expedidor" language="pt-br"/>
+			<field name="observacao" label="Observação" language="pt-br"/>
 			<field name="crm_numero" label="Número CRM" language="pt-br"/>
 			<field name="emissao_dia" label="Dia emissão" language="pt-br"/>
 			<field name="emissao_mes" label="Mês emissão" language="pt-br"/>
@@ -306,56 +306,56 @@
 				<!--	o recurso pode ser composto por vários campos, separados por vírgula	-->
 				<!--	para inserir texto fixo, deve ser colocado entre pipes (ex: |/|)	-->
 				<!--	o resourceId deve ser o nome da propriedade presente no json do atributo	-->
-				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
+				<mappedElement resourceId="nomeCidadao1,| |,nomeCidadao2"/>
 				<font type="header"/>
-				<pdfField name="crm_numero"/>
+				<pdfField name="nome_social"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
 				<position type="absolute" x="520" y="117"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="nome_portador"/>
-				<font type="header"/>
-				<pdfField name="nome_portador"/>
-				<position type="relative" elementId="background" x="220" y="117"/>
-			</element>
-			<element type="label">
-				<mappedElement resourceId="filiacaoPai,|--|,filiacaoMae"/>
+				<mappedElement resourceId="nomeMae,| |,nomeMae2,|--|,nomePai,| |,nomePai2"/>
 				<font type="header"/>
 				<pdfField name="filiacao"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>			
 			<element type="label">
-				<mappedElement resourceId="filiacaoMae"/>
+				<mappedElement resourceId="dataNascimentoNew"/>
 				<font type="header"/>
-				<pdfField name="nome_pai"/>
+				<pdfField name="nascimento"/>
 				<position type="absolute" x="220" y="198"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="filiacaoPai"/>
+				<mappedElement resourceId="orgaoExpedidor"/>
 				<font type="header"/>
-				<pdfField name="nome_mae"/>
+				<pdfField name="orgao_expedidor"/>
 				<position type="absolute" x="220" y="214"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="data_inscricao" formatter="1"/>
+				<mappedElement resourceId="fatorSanguineo"/>
 				<font type="header"/>
-				<pdfField name="emissao"/>
+				<pdfField name="fator_rh"/>
 				<position type="absolute" x="66" y="295"/>				
 			</element>
 			<element type="label">
-				<mappedElement resourceId="via"/>
+				<mappedElement resourceId="naturalidade"/>
 				<font type="header"/>
-				<pdfField name="via"/>
+				<pdfField name="naturalidade"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
-			</element>			
+			</element>	
+			<element type="label">
+				<mappedElement resourceId="observacao"/>
+				<font type="header"/>
+				<pdfField name="observacoes"/>
+				<position type="relative" elementId="background" x="220" y="117"/>
+			</element>	            		
 			<element type="image">
-				<image resourceId="foto_portador"/>
+				<image resourceId="foto"/>
 				<position type="absolute" x="500" y="170" w="135" h="190"/>
-				<pdfField name="foto_portador"/>
+				<pdfField name="img_portador"/>
 			</element>
 			<element type="image">
-				<image resourceId="assinatura_portador"/>
-				<pdfField name="assinatura_portador"/>
+				<image resourceId="assinatura"/>
+				<pdfField name="img_ass_titular"/>
 				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>
 		</page>
