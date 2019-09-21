@@ -364,56 +364,91 @@
 				<image resourceId="rg_back"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="cpf_numero"/>
+				<mappedElement resourceId="cpf"/>
 				<font type="header"/>
-				<pdfField name="cpf_numero"/>
+				<pdfField name="cpf"/>
 				<position type="absolute" x="72" y="35"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
+				<mappedElement resourceId="dni"/>
 				<font type="header"/>
-				<pdfField name="rg_numero"/>
+				<pdfField name="dni"/>
 				<position type="absolute" x="280" y="35"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="dataNascimento"/>
+				<mappedElement resourceId="numeroRegistro,| |,via"/>
 				<font type="header"/>
-				<pdfField name="data_nascimento"/>
+				<pdfField name="registro_geral"/>
 				<position type="absolute" x="72" y="163"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="titulo_eleitor"/>
+				<mappedElement resourceId="dataEmissaoProdesp"/>
+				<font type="header"/>
+				<pdfField name="data_expedicao"/>
+				<position type="absolute" x="72" y="163"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="tituloEleitor"/>
 				<font type="header"/>
 				<pdfField name="titulo_eleitor"/>
 				<position type="absolute" x="72" y="163"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="sessao"/>
+				<mappedElement resourceId="ctps"/>
 				<font type="header"/>
-				<pdfField name="secao_eleitor"/>
-				<position type="absolute" x="72" y="163"/>
-			</element>
-			<element type="label">
-				<mappedElement resourceId="zona"/>
-				<font type="header"/>
-				<pdfField name="zona_eleitor"/>
+				<pdfField name="ctps"/>
 				<position type="absolute" x="72" y="163"/>
 			</element>			
 			<element type="label">
-				<mappedElement resourceId="naturalidade"/>
+				<mappedElement resourceId="ctpsUf"/>
 				<font type="header"/>
-				<pdfField name="naturalidade"/>
+				<pdfField name="uf"/>
 				<position type="absolute" x="280" y="163"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano" formatter="1"/>
+				<mappedElement resourceId="ctpsSerie"/>
 				<font type="header"/>
-				<pdfField name="local_expedicao"/>
+				<pdfField name="serie"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="pis"/>
+				<font type="header"/>
+				<pdfField name="pasep"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="identidadeProfissional1,|--|,identidadeProfissional2,|--|,identidadeProfissional3"/>
+				<font type="header"/>
+				<pdfField name="identidade_profissional"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="certificadoMilitar"/>
+				<font type="header"/>
+				<pdfField name="certificado_militar"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="cnh"/>
+				<font type="header"/>
+				<pdfField name="cnh"/>
+				<position type="absolute" x="72" y="232"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="cns"/>
+				<font type="header"/>
+				<pdfField name="cns"/>
 				<position type="absolute" x="72" y="232"/>
 			</element>
 			<element type="image">
-				<image resourceId="assinatura_presidente"/>
-				<pdfField name="assinatura_crm"/>
+				<image resourceId="digital"/>
+				<pdfField name="img_polegar"/>
+				<position type="absolute" x="490" y="110" w="135" h="190"/>
+			</element>			
+			<element type="image">
+				<image resourceId="chancela"/>
+				<pdfField name="img_ass_diretor"/>
 				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>			
 		</page>
