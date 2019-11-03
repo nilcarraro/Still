@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--	tipo de atributo/credencial atendida por este xml	-->
-<credential id="cfm_conselheiro">
+<credential id="cfm_conselheiro_federal">
 	<!-- permite carteiras baseadas em outros formatos e não apenas certificado de atributo -->
 	<sourceType>certificateAttribute</sourceType> <!-- atualmente, apenas 'certificateAttribute' é aceito  -->
 	
@@ -271,13 +271,13 @@
 				<image resourceId="cfm_modelo3_01"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA - |,crm_estado" formatter="1"/>
+				<mappedElement resourceId="|CONSELHEIRO FEDERAL|"/>
 				<font type="header2"/>
 				<pdfField name="titulo1"/>
 				<position type="relative" elementId="background" x="230" y="40"/>
 			</element>
 			<element type="label">
-				<mappedElement resourceId="|CONSELHEIRO REGIONAL|"/>
+				<mappedElement resourceId="||"/>
 				<font type="header2"/>
 				<pdfField name="titulo2"/>
 				<position type="relative" elementId="background" x="230" y="55"/>
